@@ -12,6 +12,7 @@ int 21h
 mov cl,al
 
 ADD bl,cl
+Sub bl,48
 
 mov ah,02h
 mov dl,cl
